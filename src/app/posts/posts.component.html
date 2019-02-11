@@ -1,0 +1,6 @@
+<button (click)="getPosts()">Get posts</button>
+
+<div *ngFor="let post of posts">
+  <h2>user: {{ post.user }}</h2>
+  <h6>name: {{ post.name }}</h6>
+</div>
